@@ -1,0 +1,3 @@
+[submodule "test/data/geopandas"]
+	path = test/data/geopandas
+	url = https://github.com/geopandas/geopandas.git

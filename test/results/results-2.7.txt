@@ -1,0 +1,181 @@
+============================= test session starts ==============================
+platform linux2 -- Python 2.7.15, pytest-3.8.2, py-1.7.0, pluggy-0.8.0
+rootdir: /mnt/data/geopandas, inifile:
+plugins: cov-2.6.0
+collected 285 items
+
+../mnt/data/geopandas/geopandas/tests/test_datasets.py ...               [  1%]
+../mnt/data/geopandas/geopandas/tests/test_dissolve.py ......            [  3%]
+../mnt/data/geopandas/geopandas/tests/test_geocode.py ......             [  5%]
+../mnt/data/geopandas/geopandas/tests/test_geodataframe.py ............. [  9%]
+....................ss..............                                     [ 22%]
+../mnt/data/geopandas/geopandas/tests/test_geom_methods.py ............. [ 27%]
+............................................                             [ 42%]
+../mnt/data/geopandas/geopandas/tests/test_geoseries.py ................ [ 48%]
+....                                                                     [ 49%]
+../mnt/data/geopandas/geopandas/tests/test_merge.py ...                  [ 50%]
+../mnt/data/geopandas/geopandas/tests/test_overlay.py .................. [ 56%]
+.....................s....................                               [ 71%]
+../mnt/data/geopandas/geopandas/tests/test_pandas_methods.py .........xx [ 75%]
+....xxxx..                                                               [ 78%]
+../mnt/data/geopandas/geopandas/tests/test_plotting.py ................. [ 84%]
+.............                                                            [ 89%]
+../mnt/data/geopandas/geopandas/tests/test_sindex.py ..........s         [ 93%]
+../mnt/data/geopandas/geopandas/tests/test_testing.py ...                [ 94%]
+../mnt/data/geopandas/geopandas/tests/test_types.py ................     [100%]
+
+=============================== warnings summary ===============================
+/usr/local/lib/python2.7/site-packages/psycopg2/__init__.py:144: UserWarning: The psycopg2 wheel package will be renamed from release 2.8; in order to keep installing from binary please use "pip install psycopg2-binary" instead. For details see: <http://initd.org/psycopg/docs/install.html#binary-install-from-pypi>.
+  """)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:97: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df2, df1, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:97: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df2, df1, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:97: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df2, df1, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:97: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df2, df1, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:97: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df2, df1, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:97: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df2, df1, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/mnt/data/geopandas/geopandas/tests/test_overlay.py:66: DeprecationWarning: 'use_sindex' is deprecated. The overlay operation always requires a spatial index (rtree).
+  result = overlay(df1, df2, how=how, use_sindex=use_sindex)
+
+/usr/local/lib/python2.7/site-packages/scipy/sparse/lil.py:19: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _csparsetools
+/usr/local/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:165: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._shortest_path import shortest_path, floyd_warshall, dijkstra,\
+/usr/local/lib/python2.7/site-packages/scipy/sparse/csgraph/_validation.py:5: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._tools import csgraph_to_dense, csgraph_from_dense,\
+/usr/local/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:167: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._traversal import breadth_first_order, depth_first_order, \
+/usr/local/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:169: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._min_spanning_tree import minimum_spanning_tree
+/usr/local/lib/python2.7/site-packages/scipy/sparse/csgraph/__init__.py:170: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._reordering import reverse_cuthill_mckee, maximum_bipartite_matching, \
+/usr/local/lib/python2.7/site-packages/scipy/spatial/__init__.py:95: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .ckdtree import *
+/usr/local/lib/python2.7/site-packages/scipy/spatial/__init__.py:96: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .qhull import *
+/usr/local/lib/python2.7/site-packages/scipy/spatial/_spherical_voronoi.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _voronoi
+/usr/local/lib/python2.7/site-packages/scipy/spatial/distance.py:122: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hausdorff
+/usr/local/lib/python2.7/site-packages/scipy/linalg/basic.py:17: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._solve_toeplitz import levinson
+/usr/local/lib/python2.7/site-packages/scipy/linalg/__init__.py:207: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._decomp_update import *
+/usr/local/lib/python2.7/site-packages/scipy/special/__init__.py:640: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ufuncs import *
+/usr/local/lib/python2.7/site-packages/scipy/special/_ellip_harm.py:7: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._ellip_harm_2 import _ellipsoid, _ellipsoid_norm
+/usr/local/lib/python2.7/site-packages/scipy/interpolate/_bsplines.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _bspl
+/usr/local/lib/python2.7/site-packages/scipy/optimize/_trlib/__init__.py:1: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._trlib import TRLIBQuadraticSubproblem
+/usr/local/lib/python2.7/site-packages/scipy/optimize/_numdiff.py:10: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from ._group_columns import group_dense, group_sparse
+/usr/local/lib/python2.7/site-packages/scipy/stats/_continuous_distns.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _stats
+/usr/local/lib/python2.7/site-packages/scipy/io/matlab/mio4.py:18: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio_utils import squeeze_element, chars_to_strings
+/usr/local/lib/python2.7/site-packages/scipy/io/matlab/mio5.py:98: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from .mio5_utils import VarReader5
+/usr/local/lib/python2.7/site-packages/pysal/__init__.py:65: VisibleDeprecationWarning: PySAL's API will be changed on 2018-12-31. The last release made with this API is version 1.14.4. A preview of the next API version is provided in the `pysal` 2.0 prelease candidate. The API changes and a guide on how to change imports is provided at https://pysal.org/about
+  ), VisibleDeprecationWarning)
+/usr/local/lib/python2.7/site-packages/scipy/cluster/vq.py:78: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _vq
+/usr/local/lib/python2.7/site-packages/scipy/cluster/hierarchy.py:178: RuntimeWarning: numpy.dtype size changed, may indicate binary incompatibility. Expected 96, got 88
+  from . import _hierarchy, _optimal_leaf_ordering
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+======== 275 passed, 4 skipped, 6 xfailed, 60 warnings in 40.02 seconds ========
