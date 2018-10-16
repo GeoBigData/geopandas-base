@@ -1,12 +1,12 @@
 Basic Docker image with `geopandas` and all dependencies installed (based
 on the standard `library/python*` images). The following images are available:
 
-# Build Images
-
 * `geopandas-base:2.7`: Based on `python:2.7` image
 * `geopandas-base:3.6`: Based on `python3.6` image
 
 These are publicly available on DockerHub as `jonduckworthdg/geopandas-base:*`.
+
+# Build Images
 
 ```bash
 # Will build all available images
